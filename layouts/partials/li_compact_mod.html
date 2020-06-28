@@ -1,0 +1,92 @@
+{{ $item := . }}
+
+{{/* Dynamic view adjusts to content type. */}}
+{{ $show_authors_only := false }}{{/* Show authors only or full metadata? */}}
+{{ $show_buttons := false }}
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+{{ if eq $item.Type "talk" }}
+  {{ $show_authors_only = true }}
+  {{ $show_buttons = true }}
+{{ else if eq $item.Type "publication" }}
+  {{ $show_authors_only = true }}
+  {{ $show_buttons = true }}
+{{ else if eq $item.Type "project" }}
+  {{ $show_authors_only = true }}
+  {{ $show_buttons = true }}
+{{ end }}
+
+{{/* Get summary. */}}
+{{ $summary := "" }}
+{{ if $item.Params.summary }}
+  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ else if .Params.abstract }}
+  {{ $summary = .Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
+{{ else if $item.Summary }}
+  {{ $summary = $item.Summary }}
+{{ end }}
+<div class="card-body">
+
+    <h4 class="card-title exp-title my-0">
+        {{.Title | markdownify | emojify}}
+    </h4>
+
+    <div class="card-subtitle my-0 article-metadata">
+        {{$item.Params.coauthors | markdownify | emojify }}
+    </div>
+
+    {{with .Params.tagline}}
+        <div class="article-style">{{. | markdownify | emojify}}</div>
+    {{end}}
+
+    {{if .Params.details}}
+      <!-- <div id="accordion" class="myaccordion">
+        <div class="card">
+            <h5 class="mb-0 mt-0">
+            <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#{{.Params.id}}">
+                <button class="btn btn-link" type="button"> More details</button>
+            </div>
+            </h5>
+            <div id="{{.Params.id}}" class="collapse">
+            <div class="card-body">
+                {{.Params.details | markdownify | emojify}}
+            </div>
+            </div>
+        </div>
+      </div> -->
+      <div id="accordion" class="myaccordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0 mt-0">
+              <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#{{.Params.id}}" aria-expanded="false" aria-controls="{{.Params.id}}">
+                Details
+                <span class="fa-stack fa-sm">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                </span>
+              </button>
+            </h2>
+          </div>
+          <div id="{{.Params.id}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              {{.Params.details | markdownify | emojify}}
+            </div>
+          </div>
+        </div>
+      </div>
+    {{end}}
+</div>
+<!-- Images not really supported rn -->
+<div class="ml-3">
+  {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+  {{ with $resource }}
+  {{ $image := .Resize "150x" }}
+  <a>
+    <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}">
+  </a>
+  {{end}}
+</div>
