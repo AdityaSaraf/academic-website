@@ -35,30 +35,18 @@
         {{.Title | markdownify | emojify}}
     </h4>
 
+    {{with .Params.coauthors}}
     <div class="card-subtitle my-0 article-metadata">
-        {{$item.Params.coauthors | markdownify | emojify }}
+        {{. | markdownify | emojify }}
     </div>
+    {{end}}
 
     {{with .Params.tagline}}
         <div class="article-style">{{. | markdownify | emojify}}</div>
     {{end}}
 
     {{if .Params.details}}
-      <!-- <div id="accordion" class="myaccordion">
-        <div class="card">
-            <h5 class="mb-0 mt-0">
-            <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#{{.Params.id}}">
-                <button class="btn btn-link" type="button"> More details</button>
-            </div>
-            </h5>
-            <div id="{{.Params.id}}" class="collapse">
-            <div class="card-body">
-                {{.Params.details | markdownify | emojify}}
-            </div>
-            </div>
-        </div>
-      </div> -->
-      <div id="accordion" class="myaccordion">
+      <div id="accordion_{{.Params.id}}" class="myaccordion">
         <div class="card">
           <div class="card-header" id="headingOne">
             <h2 class="mb-0 mt-0">
@@ -71,7 +59,7 @@
               </button>
             </h2>
           </div>
-          <div id="{{.Params.id}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div id="{{.Params.id}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordion_{{.Params.id}}">
             <div class="card-body">
               {{.Params.details | markdownify | emojify}}
             </div>
