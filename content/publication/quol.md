@@ -29,7 +29,7 @@ links:
 - name: Philosophical Paper
   url: '/files/quol_few19.pdf'
 - name: Technical Paper
-  url: '/files/quol.pdf'
+  url: '/files/quol_cs.pdf'
 # url_pdf: /files/thesis.pdf
 # url_code: '#'
 # url_dataset: '#'
