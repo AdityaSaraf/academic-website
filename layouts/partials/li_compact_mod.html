@@ -29,45 +29,50 @@
 {{ else if $item.Summary }}
   {{ $summary = $item.Summary }}
 {{ end }}
-<div class="card-body">
 
-    <h4 class="card-title exp-title my-0">
-        {{.Title | markdownify | emojify}}
-    </h4>
+<h4 class="article-title mb-1 mt-1">
+    {{.Title | markdownify | emojify}}
+</h4>
 
-    {{with .Params.coauthors}}
-    <div class="card-subtitle my-0 article-metadata">
-        {{. | markdownify | emojify }}
-    </div>
-    {{end}}
+<div class="card-subtitle my-0 article-metadata">
+    {{.Params.coauthors | markdownify | emojify }}
+    {{ with .Params.publication}}
+      <span class="middot-divider"></span>
+      {{ . | markdownify | emojify }}
+    {{ end }}
+</div>
 
-    {{with .Params.tagline}}
-        <div class="article-style">{{. | markdownify | emojify}}</div>
-    {{end}}
+{{with .Params.tagline}}
+    <div class="article-style mb-2">{{. | markdownify | emojify}}</div>
+{{end}}
 
-    {{if .Params.details}}
-      <div id="accordion_{{.Params.id}}" class="myaccordion">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h2 class="mb-0 mt-0">
-              <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#{{.Params.id}}" aria-expanded="false" aria-controls="{{.Params.id}}">
-                Details
-                <span class="fa-stack fa-sm">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
-                </span>
-              </button>
-            </h2>
-          </div>
-          <div id="{{.Params.id}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordion_{{.Params.id}}">
-            <div class="card-body">
-              {{.Params.details | markdownify | emojify}}
-            </div>
-          </div>
+{{if .Params.details}}
+  <div id="accordion_{{.Params.id}}" class="myaccordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0 mt-0">
+          <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#{{.Params.id}}" aria-expanded="false" aria-controls="{{.Params.id}}">
+            Details
+            <span class="fa-stack fa-sm">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+            </span>
+          </button>
+        </h2>
+      </div>
+      <div id="{{.Params.id}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordion_{{.Params.id}}">
+        <div class="article-style mx-3 my-2">
+          {{.Params.details | markdownify | emojify}}
         </div>
       </div>
-    {{end}}
+    </div>
+  </div>
+{{end}}
+
+<div class="btn-links">
+  {{ partial "page_links" (dict "page" $item "is_list" 1) }}
 </div>
+
 <!-- Images not really supported rn -->
 <div class="ml-3">
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}

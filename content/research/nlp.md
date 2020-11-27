@@ -6,4 +6,15 @@ tagline: >
 tags:
 - other
 date: "2018-06-01T00:00:00Z"
+links:
+# - name: Custom Link
+#   url: http://example.org
+url_pdf: /files/sds_paper.pdf
+# url_code: '#'
+# url_dataset: '#'
+url_poster: '/files/sds_poster.pdf'
+# url_project: ''
+# url_slides: ''
+# url_source: '#'
+# url_video: '#'
 ---

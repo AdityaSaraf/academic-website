@@ -6,4 +6,15 @@ tagline: >
 tags:
 - phil
 date: "2018-01-01T00:00:00Z"
+links:
+# - name: Custom Link
+#   url: http://example.org
+url_pdf: /files/logical_normativity.pdf
+# url_code: '#'
+# url_dataset: '#'
+# url_poster: '#'
+# url_project: ''
+# url_slides: ''
+# url_source: '#'
+# url_video: '#'
 ---

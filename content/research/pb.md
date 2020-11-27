@@ -11,4 +11,9 @@ coauthors: "with Anna Karlin and Jamie Morgenstern"
 tags:
 - tcs
 date: "2020-06-27T00:00:00Z"
+links:
+- name: Arxiv
+  url: https://arxiv.org/abs/2009.13741
+url_pdf: /files/pb_comp.pdf
+url_slides: /files/pb_slides.pdf
 ---

@@ -10,14 +10,14 @@ authors:
 superuser: true
 
 # Role/position
-role: Research Scientist
+role: Research Assistant
 
 # Organizations/Affiliations
 organizations:
 - name: Computer Science and Engineering
-  url: "https://www.cs.washington.edu/"
-- name: University of Washington
-  url: "http://www.washington.edu/"
+  url: "https://cse.engin.umich.edu/"
+- name: University of Michigan
+  url: "https://umich.edu/"
 - name: "**email**: sarafa@cs.washington.edu"
 
 # Short bio (displayed in user profile at end of posts)
@@ -70,9 +70,9 @@ email: ""
 # - Visitors
 ---
 
-Hello and welcome to my portfolio. I am currently a Research Scientist in Computer Science and Engineering at the University of Washington, hosted by [Anna Karlin](https://homes.cs.washington.edu/~karlin/). I recently completed my M.S. in Computer Science under Anna's supervision.
+Hello and welcome to my portfolio. I am currently a Research Assistant in Computer Science and Engineering at the University of Michigan, hosted by [Grant Schoenebeck](http://schoeneb.people.si.umich.edu/). I recently completed my M.S. in Computer Science at the University of Washington under [Anna Karlin](https://homes.cs.washington.edu/~karlin/)'s supervision.
 
 My primary research interests lie in the intersection of economics and computer science. I enjoy creating compelling and realistic mathematical models of behavior, and rigorously investigating the outcomes of these models. My Master's thesis formally modelled how agents might procrastinate when faced with a difficult task, and used competition to alleviate the harms of procrastination. I've also worked more broadly in theoretical computer science, investigating strong privacy definitions to protect correlated data and a unique, *hidden* property testing setting for graphs. In the past, I've done research in Tech Policy/HCI and Natural Language Processing.
 <!-- I've recently worked on mechanisms for Bayesian differential privacy, a stronger version of the well-studied differential privacy that better protects correlated data. I have also investigated a unique property testing setting for graph properties, where the input graph was *hidden* by an oracle. Some graph properties are efficiently certifiable in this setting; we provided a partial classification. In the past, I've done research in Tech Policy/HCI and Natural Language Processing. -->
 
-In addition to my CS interests, I'm also interested in Epistemology and Philosophy of Statistics. I've investigated to what extent rational agents are *obligated* to form beliefs according to logical laws. I'm currently designing a new, *social* theory of statistical evidence that builds on likelihood-based methods, and is technically interesting because it's compatible with weak, qualitative requirements on rationality.
+In addition to my CS interests, I'm also interested in Epistemology and Philosophy of Statistics. I've investigated to what extent rational agents are *obligated* to form beliefs according to logical laws. I'm currently designing a new, *social* theory of statistical evidence that builds on likelihood-based methods, and is mathematically interesting because it's compatible with weak, qualitative requirements on rationality.
