@@ -65,6 +65,6 @@ date_format = "Jan 2006"
   organization = "Cornell"
   instructors = "Instructor: Noah Stephens-Davidowitz"
   title = "CS 4830: Introduction to Cryptography"
-  date_start = "2021-01-20"
-  date_end = "2021-05-15"
+  date_start = "2022-01-20"
+  date_end = "2022-05-15"
 +++
