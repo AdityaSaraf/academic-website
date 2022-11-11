@@ -1,4 +1,8 @@
-<p align="center"><a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener"><img src="https://sourcethemes.com/academic/img/logo_200px.png" alt="Academic logo"></a></p>
+# Quick info
+1. Edit locally with VSCode in folder: `Documents/Website/academic-website`.
+2. Build local website with `hugo server`.
+3. Push updates to this repo with git push, this will not rebuild the public website.
+4. Build actual website with `hugo`, cd into `public/` and then push to the other repo which will rebuild the public website.
 
 # Academic Kickstart: The Template for [Academic Website Builder](https://sourcethemes.com/academic/)
 
