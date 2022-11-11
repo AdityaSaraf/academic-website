@@ -10,7 +10,8 @@ details: |
 coauthors: "with Grant Schoenebeck, Jie Gao, and Fang-Yi Yu"
 tags:
 - tcs
-date: "2020-06-01T00:00:00Z"
+date: "2020-01-01T00:00:00Z"
+publication: Published in *AAMAS'22*
 links:
 # - name: Custom Link
 #   url: http://example.org

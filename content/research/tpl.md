@@ -2,7 +2,7 @@
 title: Tech Policy
 id: tpl
 tagline: >
- I spent a year at UW's [Tech Policy Lab](https://techpolicylab.uw.edu/), where I synthesized security/privacy research around new and upcoming technologies for legal and policy audiences. The areas I focused on were autonomous vehicles, IoT devices, and cell-site simulators (devices of dubious legality that police use to monitor local cell traffic). We published a paper on the attitudes of children and parents towards internet connected toys. 
+ I spent a year at UW's [Tech Policy Lab](https://techpolicylab.uw.edu/), where I synthesized security/privacy research around new and upcoming technologies for legal and policy audiences. The areas I focused on were autonomous vehicles, IoT devices, and cell-site simulators (devices of dubious legality that law enforcement officers use to monitor local cell traffic). We published a paper on the attitudes of children and parents towards internet connected toys. 
 coauthors: "with Emily McReynolds"
 tags:
 - other

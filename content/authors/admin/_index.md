@@ -10,22 +10,22 @@ authors:
 superuser: true
 
 # Role/position
-role: Research Assistant
+role: PhD student
 
 # Organizations/Affiliations
 organizations:
-- name: Computer Science and Engineering
-  url: "https://cse.engin.umich.edu/"
-- name: University of Michigan
-  url: "https://umich.edu/"
-- name: "**email**: sarafa@cs.washington.edu"
+- name: Computer Science
+  url: "https://www.cs.cornell.edu/"
+- name: Cornell University
+  url: "https://www.cornell.edu/"
+- name: "**email**: as2777@cornell.edu"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research focuses on theoretical computer science, and specifically the intersection between computer science and economics.
 
 interests:
 - EconCS
-- Complexity Theory
+- Blockchains/Cryptocurrency
 - Epistemology/Philosophy of Statistics
 
 education:
@@ -70,9 +70,9 @@ email: ""
 # - Visitors
 ---
 
-Hello and welcome to my portfolio. I am currently a Research Assistant in Computer Science and Engineering at the University of Michigan, hosted by [Grant Schoenebeck](http://schoeneb.people.si.umich.edu/). I recently completed my M.S. in Computer Science at the University of Washington under [Anna Karlin](https://homes.cs.washington.edu/~karlin/)'s supervision.
+Hello and welcome to my portfolio. I am currently a second year PhD student in Computer Science at Cornell University, where I am working with [Joe Halpern](https://www.cs.cornell.edu/home/halpern/). I recently completed my M.S. in Computer Science at the University of Washington under [Anna Karlin](https://homes.cs.washington.edu/~karlin/)'s supervision.
 
-My primary research interests lie in the intersection of economics and computer science. I enjoy creating compelling and realistic mathematical models of behavior, and rigorously investigating the outcomes of these models. My Master's thesis formally modelled how agents might procrastinate when faced with a difficult task, and used competition to alleviate the harms of procrastination. I've also worked more broadly in theoretical computer science, investigating strong privacy definitions to protect correlated data and a unique, *hidden* property testing setting for graphs. In the past, I've done research in Tech Policy/HCI and Natural Language Processing.
+My primary research interests lie in the intersection of economics and computer science. I enjoy creating compelling and realistic mathematical models of behavior, and rigorously investigating the outcomes of these models. My Master's thesis considered a model of how agents might procrastinate when faced with a difficult task, and used competition to alleviate the harms of procrastination. I've also worked more broadly in theoretical computer science, investigating strong privacy definitions to protect correlated data and coordination games on large social networks. Recently, I started work on incentive issues surrounding cryptocurrencies. In the past, I've done research in Tech Policy/HCI and NLP.
 <!-- I've recently worked on mechanisms for Bayesian differential privacy, a stronger version of the well-studied differential privacy that better protects correlated data. I have also investigated a unique property testing setting for graph properties, where the input graph was *hidden* by an oracle. Some graph properties are efficiently certifiable in this setting; we provided a partial classification. In the past, I've done research in Tech Policy/HCI and Natural Language Processing. -->
 
-In addition to my CS interests, I'm also interested in Epistemology and Philosophy of Statistics. I've investigated to what extent rational agents are *obligated* to form beliefs according to logical laws. I'm currently designing a new, *social* theory of statistical evidence that builds on likelihood-based methods, and is mathematically interesting because it's compatible with weak, qualitative requirements on rationality.
+In addition to my CS interests, I'm also interested in epistemology and the philosophy of statistics. I'm currently designing a new, *social* theory of statistical evidence, Robust Bayesianism (RB), that extends likelihood-based methodologies to broader settings. RB is mathematically interesting because it's compatible with weak, qualitative requirements on rationality. I'm also working on connecting statistical definitions of evidence to more commonplace ethical definitions of evidence, with the goal of providing an "ethics-first" approach to evidence, and to epistemology more generally.

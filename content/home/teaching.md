@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 100  # Order that this section will appear.
 
-title = "Teaching Assistant"
+title = "Teaching"
 subtitle = ""
 
 # Date format
@@ -54,4 +54,17 @@ date_format = "Jan 2006"
   date_end = "2019-06-15"
   description = "I was a teaching assistant for this course three times: Spring '18, Winter '19, and Spring '19."
 
+[[item]]
+  organization = "Cornell"
+  instructors = "Instructor: Anke van Zuylen"
+  title = "CS 4820: Introduction to Analysis of Algorithms"
+  date_start = "2021-08-26"
+  date_end = "2021-12-15"
+
+[[item]]
+  organization = "Cornell"
+  instructors = "Instructor: Noah Stephens-Davidowitz"
+  title = "CS 4830: Introduction to Cryptography"
+  date_start = "2021-01-20"
+  date_end = "2021-05-15"
 +++

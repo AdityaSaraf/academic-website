@@ -8,6 +8,7 @@ details: |
 
   We augment this model by having two agents compete to finish the task first, with the winner getting a reward. We show that, for any graph, a very small amount of reward convinces biased agents to behave optimally, even when their natural behavior would have exponentially high cost. The amount of reward needed to guarantee optimal behavior with competition is also significantly less (in general) than several non-competitive reward schemes in the existing literature.
 coauthors: "with Anna Karlin and Jamie Morgenstern"
+publication: Published in *WINE'20*
 tags:
 - tcs
 date: "2020-06-27T00:00:00Z"
