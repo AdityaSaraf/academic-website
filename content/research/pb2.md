@@ -8,7 +8,12 @@ details: |
 
   In our model, the task designer can chunk edges into smaller pieces. We show that, for edges along the shortest path, the optimal way to chunk an edge is to make initial pieces easier and later pieces progressively harder. For edges not along the shortest path, optimal chunking is significantly more complex, but we provide an efficient algorithm. We also show that with a linear number of chunks on each edge, the biased agent's cost can be exponentially lowered to within a constant factor of the true cheapest path. Finally, we show how to optimally chunk task graphs for multiple types of agents simultaneously.
 coauthors: "with Joe Halpern"
+publication: Published in *EC'23*
 tags:
 - tcs
 date: "2022-06-27T00:00:00Z"
+links:
+- name: Arxiv
+  url: https://arxiv.org/abs/2309.13244
+url_slides: /files/chunking_slides.pdf
 ---
