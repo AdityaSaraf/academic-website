@@ -16,13 +16,6 @@ tags:
 - tcs
 date: "2022-09-01T00:00:00Z"
 links:
-# - name: Custom Link
-#   url: http://example.org
-# url_code: '#'
-# url_dataset: '#'
-# url_poster: '#'
-# url_project: ''
-# url_slides: ''
-# url_source: '#'
-# url_video: '#'
+- name: Arxiv
+  url: https://arxiv.org/abs/2410.11053
 ---
