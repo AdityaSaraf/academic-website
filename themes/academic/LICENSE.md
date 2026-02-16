@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright © 2016-Present [**Lore Labs**](https://lore.tech).
+Copyright (c) 2016-present George Cushen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

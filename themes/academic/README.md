@@ -1,258 +1,159 @@
-[**中文**](./README.zh.md)
+<p align="center"><a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener"><img src="https://sourcethemes.com/academic/img/logo_200px.png" alt="Academic logo"></a></p>
 
-<p align="center">
-  <a href="https://hugoblox.com/start?utm_source=github&utm_medium=readme&utm_content=hero_image">
-    <img src="./.github/media/hero.png" alt="Build world-class sites with HugoBlox" width="100%">
-  </a>
-</p>
+# [Academic](https://sourcethemes.com/academic/): the website builder for [Hugo](https://gohugo.io)
 
-<h1 align="center">HugoBlox: Your Open Publishing Stack</h1>
+### The Page Builder to Easily Create Professional Websites :pencil2: :newspaper: :rocket:
 
-<p align="center">
-  <strong>Publish notebooks, docs, portfolios, and knowledge bases from Markdown + Jupyter.</strong><br/>
-  Built for data scientists, AI engineers, researchers, labs, and tech startups who want speed without lock-in: Hugo + Tailwind with optional Researcher Plan automation (visual editing, imports, fixes, and upgrades).
-</p>
+**Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 50 _widgets_, _themes_, and _language packs_ included!**
 
-<p align="center">
-  <a href="https://hugoblox.com/start?utm_source=github&utm_medium=readme&utm_content=cta_start"><b>Start Free in Browser</b></a>
-  &nbsp;•&nbsp;
-  <a href="https://marketplace.visualstudio.com/items?itemName=ownable.ownable"><b>Get HugoBlox Studio (VS Code)</b></a>
-</p>
+[Check out the latest **demo**](https://academic-demo.netlify.app) of what you'll get in less than 10 minutes, or [view the **showcase**](https://sourcethemes.com/academic/#expo) of personal, project, and business sites.
 
-<p align="center">
-  <sub>
-    <a href="#for-researchers--labs">Researchers & Labs</a>
-    &nbsp;•&nbsp;
-    <a href="#for-data-scientists--ai-engineers">Data Scientists & AI Engineers</a>
-    &nbsp;•&nbsp;
-    <a href="#for-teams--orgs">Teams & Orgs</a>
-    &nbsp;•&nbsp;
-    <a href="#plans">Automations & Plans</a>
-  </sub>
-</p>
+- 👉 [**Get Started**](https://sourcethemes.com/academic/docs/install/)
+- 📚 [View the **documentation**](https://sourcethemes.com/academic/docs/)
+- 💬 [Chat with the **Academic community**](https://spectrum.chat/academic) or [**Hugo community**](https://discourse.gohugo.io)
+- 🐦 Twitter: [@source_themes](https://twitter.com/source_themes) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithAcademic](https://twitter.com/search?q=%23MadeWithAcademic&src=typd)
+- 💡 [Request a **feature** or report a **bug**](https://github.com/gcushen/hugo-academic/issues)
+- ⬆️ **Updating?** View the [Update Guide](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
+- :heart: **Support development** of Academic:
+  - ☕️ [**Donate a coffee**](https://paypal.me/cushen)
+  - 💵 [Become a backer on **Patreon** and **unlock rewards**](https://www.patreon.com/cushen)
+  - 🖼️ [Decorate your laptop or journal with an Academic **sticker**](https://www.redbubble.com/people/neutreno/works/34387919-academic)
+  - 👕 [Wear the **T-shirt**](https://academic.threadless.com/)
+  - :woman_technologist: [**Contribute**](https://sourcethemes.com/academic/docs/contribute/)
 
-<div align="center">
+[![Screenshot](https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png)](https://github.com/gcushen/hugo-academic/)
 
-<a href="https://discord.gg/z8wNYzb">
-    <img src="https://img.shields.io/discord/722225264733716590?label=Join%20Discord&logo=discord&logoColor=white&style=flat-square&color=5865F2" alt="Discord">
-  </a>
-  <a href="https://github.com/HugoBlox/kit">
-    <img src="https://img.shields.io/github/stars/HugoBlox/kit?label=Star%20HugoBlox&logo=github&logoColor=white&style=flat-square&color=181717" alt="GitHub Stars">
-  </a>
-  <a href="https://x.com/MakeOwnable">
-    <img src="https://img.shields.io/twitter/follow/MakeOwnable?label=Follow&logo=x&logoColor=white&style=flat-square&color=000000" alt="Follow on X">
-  </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=ownable.ownable">
-    <img src="https://img.shields.io/visual-studio-marketplace/i/ownable.ownable?label=VS%20Code%20Installs&logo=visualstudiocode&logoColor=white&style=flat-square&color=007ACC" alt="VS Code Installs">
-  </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=ownable.ownable">
-    <img src="https://img.shields.io/visual-studio-marketplace/stars/ownable.ownable?label=VS%20Code%20Rating&logo=visualstudiocode&logoColor=white&style=flat-square&color=007ACC" alt="VS Code Rating">
-  </a>
+**Key features:**
 
-</div>
+- **Page builder** - Create *anything* with [**widgets**](https://sourcethemes.com/academic/docs/page-builder/) and [**elements**](https://sourcethemes.com/academic/docs/writing-markdown-latex/)
+- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
+- **Create content** in [**Markdown**](https://sourcethemes.com/academic/docs/writing-markdown-latex/), [**Jupyter**](https://sourcethemes.com/academic/docs/jupyter/), or [**RStudio**](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
+- **Plugin System** - Fully customizable [**color** and **font themes**](https://sourcethemes.com/academic/themes/)
+- **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
+- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
+- **Beautiful Site** - Simple and refreshing one page design
+- **Industry-Leading SEO** - Help get your website found on search engines and social media
+- **Media Galleries** - Display your images and videos with captions in a customizable gallery
+- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
+- **Multi-language** - 15+ language packs including English, 中文, and Português
+- **Multi-user** - Each author gets their own profile page
+- **Privacy Pack** - Assists with GDPR
+- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
+- **One-Click Deployment** - No servers. No databases. Only files.
 
-<p align="center">
-  <sub>
-    Trusted since <strong>2016</strong> · <strong>150,000+</strong> researchers and scientists (Meta, Stanford, NVIDIA) · Rated <strong>4.9/5</strong> by users (official survey) · Used by teams like <a href="https://research.nvidia.com/research-labs">NVIDIA Research Labs</a>, <a href="https://cai4cai.ml/">King’s College London</a>, and <a href="https://www.metaconscious.org/">MIT</a> · Featured by GitHub <a href="https://github.blog/open-source/release-radar-february-2019/#hugo-academic-4-0">Release Radar</a>
-  </sub>
-</p>
+## Themes
 
-https://github.com/user-attachments/assets/a0be0c48-b8d5-4b40-a11b-85fedcdf89bc
+Academic comes with **automatic day (light) and night (dark) mode** built-in. Alternatively, click the sun/moon icon in the top right of the [Demo](https://academic-demo.netlify.app) to set your preferred mode!
 
----
+Choose a stunning theme for your site and [customize it](https://sourcethemes.com/academic/docs/customization/#custom-theme) to your liking:
 
-## ⚡️ Why teams choose HugoBlox
+[![Themes](https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/themes.png)](https://sourcethemes.com/academic/themes/)
 
-In the age of AI, **Markdown is the new source code**. HugoBlox gives you the speed of modern tooling with the durability of a static stack: **Hugo + Tailwind** (with optional Alpine/Svelte blocks for interactivity).
+[Browse more themes...](https://sourcethemes.com/academic/themes/)
 
-- **Own your content**: clean Markdown, YAML, and notebooks — portable, readable, and LLM-friendly.
-- **Performance without the ops tax**: static output, fast builds, no runtime database.
-- **Beautiful by default**: high-quality templates + blocks (and Researcher Plan options when you want more).
-- **A hybrid workflow**: edit in code, or use a visual editor when you want velocity.
+## The Future of Technical Content Writing
 
----
+[![Writing technical content](https://sourcethemes.com/academic/img/docs/writing-technical-content.gif)](https://academic-demo.netlify.apppost/writing-technical-content/)
 
-## For researchers & labs
+## Ecosystem
 
-- **Lab sites and academic profiles** (people, publications, projects, news)
-- **Citable output** with BibTeX/DOI workflows
-- **Notebooks + LaTeX** for technical writing that actually renders
+* **[Academic Admin](https://github.com/sourcethemes/academic-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
+* **[Academic Scripts](https://github.com/sourcethemes/academic-scripts):** Scripts to help migrate content to new versions of Academic
 
-## For data scientists & AI engineers
+## Install
 
-- **Project docs** and technical blogs without heavy JavaScript stacks
-- **Notebook-first publishing** (`.ipynb`) for reports, tutorials, and results
-- **Knowledge bases** and internal docs that stay searchable and maintainable
+You can choose from one of the following four methods to install:
 
-## For teams & orgs
+* **one-click install using your web browser (recommended)**
+* install on your computer using Git with the Command Prompt/Terminal app
+* install on your computer by downloading the ZIP files
+* install on your computer with RStudio
 
-- **Consistent sites** across teams with templates + blocks
-- **Lower risk upgrades** with clear versioning + migration guidance
-- **Support options** when you need fast answers
+### Install with web browser
 
----
+[**Create your site now with Netlify** :rocket:](https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart)
 
-## 🧠 Edit the way you like (code-first, visual when you want it)
+* One-click install of Academic creates an `academic-kickstart` repository in your GitHub or GitLab account
+* Netlify will provide you with a customizable URL to access your new site, [or get your own domain](https://sourcethemes.com/academic/docs/domain/)
+* Around 1-5 minutes after editing content in your repository, your site will automatically update
+  - If your site fails to update, [login to Netlify](https://www.netlify.com/), click your site, go to **Deploys**, and review the latest deploy log for any errors
+* To **easily edit your site in a rich online editor in your browser**,
+  - [Login to Netlify](https://www.netlify.com/) and click the site you deployed with Netlify
+  - Go to **Settings > Identity**, and select **Enable Identity** service
+  - Under **Registration** preferences, select **Invite Only**
+  - Scroll down to **Services > Git Gateway**, and click **Enable Git Gateway**
+  - Head over to **`YOUR_SITE.com/admin/`** to view your content management panel and begin publishing content
+  - For support with _Netlify CMS_ admin panel, refer to the [Netlify CMS docs](https://www.netlifycms.org/docs/add-to-your-site/#authentication) and the very active [Netlify CMS community](https://www.netlifycms.org/community/)
+* To edit your site in a [Markdown editor](https://www.typora.io) on your computer,
+  - Perform the steps in the [*Install with Git*](#install-with-git) section below
 
-- **Code-first**: Markdown/YAML + Hugo templates for full control.
-- **Visual editing (Researcher Plan)**: **HugoBlox Studio** in VS Code for drag-and-drop blocks, previews, and safer config edits.
-- **AI automation (Researcher Plan)**: spend less time on formatting, YAML fixes, imports, and maintenance.
+Once you have followed the link above to automatically install Academic, head on over to your new `academic-kickstart` repository in your GitHub (or GitLab) account and [personalize your site by editing the files in](https://sourcethemes.com/academic/docs/get-started/) `config/_default/`. Shortly after saving (i.e. *committing* a file), your site will automatically update.
+   
+View the [Homepage Builder](https://sourcethemes.com/academic/docs/page-builder/) and [Content](https://sourcethemes.com/academic/docs/managing-content/) guides to learn how to add widgets and content. For inspiration, refer to the [Markdown content](https://github.com/gcushen/hugo-academic/tree/master/exampleSite) which powers the [Demo](https://academic-demo.netlify.app).
 
-<p align="center">
-  <img src="./.github/media/studio/slide-1.webp" alt="HugoBlox Studio in Action" width="100%">
-</p>
-<p align="center"><em>HugoBlox Studio: Visual editing meets code-first control.</em></p>
+### Install with Git
 
----
+Prerequisites:
 
-## 🛠️ The toolkit
+* [Download and install Git](https://git-scm.com/downloads)
+* [Download and install Hugo Extended v0.65-v0.72](https://gohugo.io/getting-started/installing/#quick-install)
 
-| **Feature** | **Why it matters** |
-| :--- | :--- |
-| **HugoBlox Studio (VS Code)** | A visual CMS inside your editor. Drag-and-drop blocks without leaving VS Code. |
-| **Notebooks & LaTeX** | Render `.ipynb` and math-heavy pages natively. |
-| **BibTeX / DOI workflows** | Build publication pages and bibliographies without manual formatting. |
-| **Polyglot Support** | Write in Markdown, Jupyter, RMarkdown, or LaTeX Math. |
+Install:
 
-<p align="center">
-  <img src="./.github/media/templates.webp" alt="Template previews" width="900">
-</p>
+1. [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) the *Academic Kickstart* repository to create a new website
+   * If you already created your site with **Netlify**, then skip this step
+2. Clone your fork to your computer with Git, replacing `sourcethemes` in the command below with your GitHub username: 
 
-<p align="center">
-  <a href="https://hugoblox.com/templates?utm_source=github&utm_medium=readme&utm_content=templates"><b>Browse Templates →</b></a>
-</p>
+    ```bash
+    git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
+    ```
+    
+3. Initialize the theme:
 
-<p align="center">
-  <sub>Want to see it working fast? Pick a template and publish in ~60 seconds with the Online Copilot.</sub><br/>
-  <a href="https://hugoblox.com/start?utm_source=github&utm_medium=readme&utm_content=cta_template_start"><b>Try a template now →</b></a>
-</p>
+    ```bash
+    cd My_Website
+    git submodule update --init --recursive
+    ```
 
----
+### Install with ZIP
 
-## 🚀 Get Started
+Prerequisites:
 
-### Option 1: The Online Copilot (Fastest)
-Ideal for **founders, labs, and startups**. Launch a site in minutes.
+* [Download and install Hugo Extended v0.65-v0.72](https://gohugo.io/getting-started/installing/#quick-install)
 
-👉 [**Start Free in Browser**](https://hugoblox.com/start?utm_source=github&utm_medium=readme&utm_content=get_started_browser)
+Install:
 
-### Option 2: HugoBlox Studio (Best for Data/AI teams)
-The power of a visual website builder, directly inside VS Code.
+1. [Download](https://github.com/sourcethemes/academic-kickstart/archive/master.zip) and extract *Academic Kickstart*
+2. [Download](https://github.com/gcushen/hugo-academic/archive/master.zip) and extract the *Academic theme* files from the `hugo-academic-master` folder to the `themes/academic/` folder in *Academic Kickstart*
 
-1. **Install** [HugoBlox Studio from the Marketplace](https://marketplace.visualstudio.com/items?itemName=ownable.ownable).
-2. **Open** any HugoBlox project folder.
-3. **Click** the HugoBlox Studio icon in the menu to start visually editing.
+### Install with RStudio
 
-### Option 3: The CLI (For DevOps/Eng)
-Scaffold a new project locally.
+[Install Academic with RStudio](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
+
+## Demo content
+
+For inspiration, refer to the [Markdown content](https://github.com/gcushen/hugo-academic/tree/master/exampleSite) which powers the [Demo](https://academic-demo.netlify.app).
+
+If you wish to initialise your site with the demo content, copy the contents of the `themes/academic/exampleSite/` folder to your website root folder, overwriting existing files if necessary. The `exampleSite` folder contains an example config file and content to help you get started. The following command can be used to accomplish this:
 
 ```bash
-  # Requires Hugo Extended & Node.js
-  npm install -g hugoblox
-  hugoblox create site
+cp -av themes/academic/exampleSite/* .
 ```
 
-Need guides and best practices? See the docs: [**docs.hugoblox.com**](https://docs.hugoblox.com/?utm_source=github&utm_medium=readme&utm_content=docs)
+## Get Started
 
----
+[View the guide to Personalize and Deploy your new site](https://sourcethemes.com/academic/docs/get-started/).
 
-## ✅ Stability & upgrades (because your site should not break)
+## Updating
 
-- **Pin versions** to keep production stable.
-- **Upgrade with confidence** using migration notes and upgrade guides.
-- **Customize safely**: prefer configuration and blocks over fragile template overrides when possible.
-- **Catch config issues early (Researcher Plan)**: visual editing + validation reduces YAML/front matter mistakes.
+[View the Update Guide](https://sourcethemes.com/academic/docs/update/).
 
-See the docs for upgrade guidance: [**docs.hugoblox.com**](https://docs.hugoblox.com/?utm_source=github&utm_medium=readme&utm_content=upgrade_guidance)
-
-<a name="plans"></a>
-## ⚡️ Unlock Automations & Premium
-
-HugoBlox is **Open Core**. The **Free Kit** is production-grade and you will always own your data and code.
-
-The Free Kit includes:
-
-- **[HugoBlox Studio](https://marketplace.visualstudio.com/items?itemName=ownable.ownable) Core**: Visual site configuration, theming, and content editing
-- **Templates + blocks** for portfolios, labs, docs, and landing pages
-- **Markdown/YAML-first workflow** with Hugo + Tailwind performance
-- **Notebook + LaTeX support** for technical publishing
-- **Community support** via docs, GitHub issues, and Discord
-
-### 🤖 Pro (Automation)
-
-Upgrade to **Pro** for [HugoBlox Studio](https://marketplace.visualstudio.com/items?itemName=ownable.ownable) (requires extension login) when you want automation and lower maintenance overhead:
-
-- **Less time debugging YAML** (Fix-it Bot + safer config editing)
-- **Less time formatting citations** (Magic Import + publication automation)
-- **Less time dealing with upgrades** (guided maintenance workflows)
-- **More velocity** (visual editing + previews in VS Code)
-
-
-| Feature | **Free Kit** (Open Source) | **Pro** (Automation) |
-| :--- | :---: | :---: |
-| **Site Ownership** | ✅ 100% Yours | ✅ 100% Yours |
-| **Visual Page Editor** | ❌ | **✅ Included** |
-| **AI Assistant** | ⏳ Trial | **✅ Included** |
-| **Auto Sync with GitHub** | ❌ | **✅ Included** |
-| **AI "Fix-It" Bot** (Auto-fix YAML) | ❌ | **✅ Unlimited** |
-| **Magic Import** (BibTeX/DOI -> Page) | ⏳ Trial | **✅ Unlimited** |
-| **CV Generator** (Site -> PDF Resume) | ❌ | **✅ Included** |
-| **Private Discord** | ❌ | ✅ |
-| **Support Open Research** | 💜 | **🏆 Hero Status** |
-
-👉 [**View Full Feature Matrix**](https://hugoblox.com/pricing?utm_source=github&utm_medium=readme&utm_content=pricing_matrix) &nbsp;•&nbsp; [**Get Pro**](https://hugoblox.com/pricing?utm_source=github&utm_medium=readme&utm_content=cta_pro)
-
-> "HugoBlox Studio saved me **40+ hours** on my lab site. Visual edits + BibTeX auto-updates = **citations up 3×**."
-> <br/>— **Dr. Sarah Yang**, AI Researcher
-
-### 🎨 HugoBlox Premium
-
-**Get the complete kit.** Instant access to premium templates, blocks, and community support to help you launch faster.
-
-| Feature | Open Source | **HugoBlox Premium** |
-| :--- | :---: | :---: |
-| **Core Framework** | ✅ | ✅ |
-| **Premium Templates** (SaaS, Lab) | ❌ | **✅ Included** |
-| **Premium Blocks** | ❌ | **✅ Included** |
-| **Remove Attribution?** | ❌ | **✅ Included** |
-| **Private Discord** | ❌ | ✅ |
-| **Support Open Research** | 💜 | **🏆 Hero Status** |
-
-👉 [**Get Premium Templates Bundle**](https://hugoblox.com/premium?utm_source=github&utm_medium=readme&utm_content=cta_premium)
-
-> "Launched my startup site with built-in docs in **10 minutes**. The premium block system is genius; onboarding time dropped 60%."
-> <br/>— **Alexandre Rodrigues**, Founder
-
----
-
-## 🏢 Org-ready (without the enterprise bloat)
-
-- **Deploy anywhere**: static output works with your existing infra.
-- **Lower ops surface area**: no runtime app to patch.
-- **Procurement-friendly options**: priority support and commercial features when you need them.
-
----
-
-## 🗣️ Community & Support
-
-We are a community of 150,000+ researchers, engineers, and creators.
-
-- **Need Help?** Join the [Discord Server](https://discord.gg/z8wNYzb) or search the [Documentation](https://docs.hugoblox.com/).
-- **Found a Bug?** Open an [Issue](https://github.com/HugoBlox/kit/issues).
-- **Want to Contribute?** Read our [Contributing Guide](./CONTRIBUTING.md).
-
-### Sponsors
-Help us keep open-source sustainable.
-
-[**❤️ Sponsor on GitHub**](https://github.com/sponsors/gcushen) | [**🏢 Become a Partner**](https://github.com/sponsors/gcushen)
-
----
+Feel free to *star* the project on [Github](https://github.com/gcushen/hugo-academic/) and follow [@source_themes](https://twitter.com/source_themes) on Twitter to help keep track of [updates](https://sourcethemes.com/academic/updates).
 
 ## License
 
-Copyright © 2016-Present [**Lore Labs**](https://lore.tech/?utm_source=github&utm_medium=readme).
-Released under the [MIT License](./LICENSE.md).
+Copyright 2016-present [George Cushen](https://georgecushen.com).
 
-<p align="center">
-  <sub>HugoBlox™ is a trademark of Lore Labs.</sub>
-</p>
+Released under the [MIT](https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md) license.
+
+[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/hugo-academic/readme?pixel)](https://github.com/igrigorik/ga-beacon)

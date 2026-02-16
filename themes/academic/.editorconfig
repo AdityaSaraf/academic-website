@@ -5,27 +5,16 @@ root = true
 [*]
 charset = utf-8
 end_of_line = lf
-indent_style = space
 indent_size = 2
+indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{yaml,yml}]
-max_line_length = 150
+[*.toml]
+max_line_length = 100
 
 [*.md]
 trim_trailing_whitespace = false
-max_line_length = off
 
-[*.py]
-indent_size = 4
-
-[Makefile]
-indent_style = tab
-
-[*.go]
-indent_style = tab
-tab_width = 8
-
-[{**/layouts/_shortcodes/*.html, **/layouts/_markup/*.html}]
+[{layouts/shortcodes/*.html, layouts/_default/_markup/*.html}]
 insert_final_newline = false
