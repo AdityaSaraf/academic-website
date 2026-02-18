@@ -13,7 +13,7 @@ details: |
   Finally, we study lending pools in practice, and show the discount rates induced by their interest rates, under our model.
 coauthors: "with Joe Halpern and Rafael Pass"
 tags:
-- tcs
+- blockchain
 date: "2022-09-01T00:00:00Z"
 links:
 - name: Arxiv

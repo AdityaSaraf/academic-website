@@ -19,6 +19,13 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = 'College Impact $\cdot$ Polygence $\cdot$ Lumiere'
+  title = "High School Research Mentorship"
+  date_start = "2022-06-01"
+  # date_end = ""
+  description = "I’ve done 1-on-1 research mentoring for over 30 high school students, on a wide range of topics, including historical economics, machine learning, philosophy, and more. Several of my students have published papers, and won science fairs."
+
+[[item]]
   organization = "UW"
   instructors = "Instructors: Kevin Zatloukal, Emina Tourlak"
   title = "CSE 311: Foundations of Computing I"

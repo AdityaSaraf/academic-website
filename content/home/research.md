@@ -26,8 +26,12 @@ subtitle = ""
     tag = "*"
 
   [[content.filter_button]]
-    name = "Theoretical CS"
-    tag = "tcs"
+    name = "Blockchain"
+    tag = "blockchain"
+
+  [[content.filter_button]]
+  name = "CS Theory"
+  tag = "tcs"
   
   [[content.filter_button]]
     name = "Philosophy"
