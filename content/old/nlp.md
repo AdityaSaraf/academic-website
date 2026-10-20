@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Single Document Summarization
 id: nlp
 tagline: >
@@ -17,4 +17,4 @@ url_poster: '/files/sds_poster.pdf'
 # url_slides: ''
 # url_source: '#'
 # url_video: '#'
----
+--- -->
